@@ -32,14 +32,14 @@ console.log(year2014[0]["Win conditions"])
 Use getFinals to do the following:
 1. Receive data as a parameter
 2. Return an array of objects with the data of the teams that made it to the final stage
-
 hint - you should be looking at the stage key inside of the objects
 */
 
-function getFinals(/* code here */) {
-   return fifaData.final
+function getFinals(fifaData) {
+   let finalTeams = fifaData.filter(i => i["Stage"] === "Final")
+   return finalTeams
 }
-
+console.log(getFinals(fifaData))
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
