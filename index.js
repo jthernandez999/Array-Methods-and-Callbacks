@@ -77,7 +77,7 @@ function getWinners(getFinals) {
     console.log(getWinners[0]("winners"))
     
 
-
+  
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use the higher-order function getWinnersByYear to do the following:
